@@ -3,7 +3,7 @@ import { socialMedia } from '../constant'
 
 const Footer = () => {
   return (
-    <section className="mt-[10rem] flex flex-col">
+    <section className=" w-full mt-[10rem] flex flex-col">
       <div className="flex flex-row items-center justify-center">
         {socialMedia.map((social, index) => (
           <img

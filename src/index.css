@@ -368,11 +368,6 @@
   color: #2978b5;
 }
 
-.contact-grid {
-  text-align: center;
-  margin: 0 auto;
-}
-
 .nav-icon {
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
@@ -397,3 +392,4 @@
 .text-color1 {
   color: var(--text_color1);
 }
+

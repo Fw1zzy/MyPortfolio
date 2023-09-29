@@ -63,7 +63,7 @@ export const socialMedia = [
 export const myProjects = [
   {
     title: "GERICHT Restaurant",
-    context: "a restaurant landing page that shows you the things you can order with a nice responsive interface.",
+    context: "a restaurant landing page that shows you the things you can order with responsive interface.",
     language1: "React",
     language2: "CSS3",
     language3: "JavaScript",
@@ -74,7 +74,7 @@ export const myProjects = [
   },
   {
     title: "Threads Clone",
-    context: "a full stack threads clone with typescript, react, tailwindcss, nextjs, clerk, mongodb and next auth.js.",
+    context: "a full stack threads clone with typescript, react, tailwindcss, nextjs, mongodb and clerk",
     language1: "NextJS",
     language2: "MongoDB",
     language3: "TypeScript",

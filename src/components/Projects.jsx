@@ -4,10 +4,10 @@ import { myProjects } from '../constant'
 const Projects = () => {
   return (
     <section className="w-full px-6 flex flex-col justify-between items-center" id="projects">
-       <div className="mt-20 flex justify-center items-center">
+       <div className="mt-5 flex justify-center items-center">
         <h2 className="font-poppins text-[3rem] font-bold textcolor1 dark:text-slate-100">Projects</h2>
       </div>
-      <div className="project-grid">
+      <div className="project-grid flex justify-center items-center">
         {myProjects.map((project, index) => (
             <div className="project icon">
               <h5 className="text-[1.3rem] font-poppins font-bold textcolor1 dark:text-slate-100">{project.title}</h5>

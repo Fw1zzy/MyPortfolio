@@ -8,7 +8,7 @@ const Home = () => {
       <h1 className="font-poppins text-[3.8rem] font-bold color_blue leading-[4.5rem] dark:text-sky-400 ">Emmanuel Pascua.</h1>
         <p className="font-poppins textcolor2 dark:text-slate-100">Software Development Student | Passionate about Innovative Solutions</p>
         <br/>
-        <p className="font-poppins textcolor2 dark:text-slate-100">
+        <p className="font-poppins textcolor2 text-justify dark:text-slate-100">
             I'm a dedicated software development student with a passion for creating impactful solutions.I thrive in collaborative environments and excel at problem-solving. 
             Seeking opportunities to learn, grow, and contribute to real-world projects. Let's connect and build innovative software together.
         </p>
