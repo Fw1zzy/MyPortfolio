@@ -41,22 +41,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/call_me.emman/",
+    link1: "https://www.instagram.com/call_me.emman/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/emmanuel.pascua.161/",
+    link2: "https://www.facebook.com/emmanuel.pascua.161/",
   },
   {
     id: "social-media-3",
     icon: github,
-    link: "https://github.com/Fw1zzy",
+    link3: "https://github.com/Fw1zzy",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/emmanuelpascua/",
+    link4: "https://www.linkedin.com/in/emmanuelpascua/",
   },
 ];
 

@@ -1,34 +1,36 @@
 import React from 'react'
 import { useState } from 'react';
 import { menu, close } from '../assets';
-import { navLinks, socialMedia } from '../constant';
-import Themes from './Themes';
+import { navLinks } from '../constant';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className=" w-full py-6 flex justify-between items-center">
       <div className="flex flex-row items-center">
-        {socialMedia.map((social, index) => (
-          <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[25px] h-[25px] object-contain cursor-pointer icon text-color1 ${
-              index !== socialMedia.length - 1 ? "mr-1" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
-        ))}
+          <ul className="flex justify-start items-center gap-1">
+            <a target="_blank " href="https://www.instagram.com/call_me.emman/" aria-label="source code " className="text-[1.6rem] text-[#444] social_icon dark:text-slate-100">
+                  <i aria-hidden="true" class="fab fa-instagram"></i>
+              </a>
+              <a target="_blank " href="https://www.facebook.com/emmanuel.pascua.161/" aria-label="source code " className="text-[1.6rem] text-[#444] social_icon dark:text-slate-100">
+                  <i aria-hidden="true" class="fab fa-facebook"></i>
+              </a>
+              <a target="_blank " href="https://github.com/Fw1zzy" aria-label="source code " className="text-[1.6rem] text-[#444] social_icon dark:text-slate-100">
+                  <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
+              <a target="_blank " href="https://www.linkedin.com/in/emmanuelpascua/" aria-label="source code " className="text-[1.6rem] text-[#444] social_icon dark:text-slate-100">
+                  <i aria-hidden="true" class="fab fa-linkedin"></i>
+              </a>
+          </ul>
       </div>
 
       <ul className="list-none md:flex hidden justify-end items-center flex-1 mr-10">
         {navLinks.map((nav, index) => (
           <li
           key={nav.id}
-          className={`font-poppins font-semibold cursor-pointer text=[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} textcolor1`}
+          className={`font-poppins font-semibold cursor-pointer text=[18px] dark:text-slate-100 ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} textcolor1`}
         >
-          <a href={nav.id} className="nav-icon dark:text-slate-100">
+          <a href={nav.id} className="nav-icon">
             {nav.title}
           </a>
         </li>
@@ -43,14 +45,13 @@ const Navbar = () => {
         />
       </div>
 
-      <div className={`${toggle ? 'flex' : 'hidden'} 
-      bg-slate-200 absolute top-0 right-0 left-0 p-7 my-2 min-w-[140px] rounded-md sidebar flex-col z-[10]
+      <div className={`${toggle ? 'flex' : 'hidden'} absolute top-0 right-0 left-0 p-7 my-2 min-w-[140px] bg-slate-100 dark:bg-[#131a32] rounded-md sidebar flex-col z-[10]
       `}> 
         <ul className="list-none flex flex-col justify-center items-center mt-[3rem]">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-semibold cursor-pointer text=[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} textcolor1`}
+                  className={`font-poppins font-semibold cursor-pointer text=[18px] dark:text-slate-100 ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} textcolor1`}
                 >
                   <a href={nav.id} className="nav-icon">
                     {nav.title}

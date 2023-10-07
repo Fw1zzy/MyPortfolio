@@ -5,20 +5,21 @@ import { Home, Navbar, About, Projects, Skills, Contact, Footer, Themes} from '.
 
 const App = () => {
   return (
-    <div className="body-color w-fullr">
+    <div className="body-color w-full dark:bg-[#131a32]">
       <div className={`${styles.marginX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} flex justify-center items-center`}>
+        <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
           <Navbar />
+          <Themes />
         </div>
       </div>
 
-      <div className={`${styles.marginX} flex flex-col justify-center items-center`}>
+      <div className={`${styles.marginX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Home />
         </div>
       </div>
 
-      <div className={`${styles.marginX} flex flex-col justify-center items-center`}>
+      <div className={`${styles.marginX} ${styles.flexCenter} flex-col`}>
         <div className={`${styles.boxWidth}`}>
           <About />
           <Projects />
