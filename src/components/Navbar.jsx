@@ -24,7 +24,7 @@ const Navbar = () => {
           </ul>
       </div>
 
-      <ul className="list-none md:flex hidden justify-end items-center flex-1 mr-10">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 mr-10">
         {navLinks.map((nav, index) => (
           <li
           key={nav.id}
@@ -37,7 +37,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="md:hidden flex flex-1 justify-end items-center z-[99]">
+      <div className="sm:hidden flex flex-1 justify-end items-center z-[99]">
         <img src={toggle ? close : menu} 
           alt="menu"
           className="w-[30px] h-[30px] object-contain "

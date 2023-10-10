@@ -5,7 +5,11 @@ import { Home, Navbar, About, Projects, Skills, Contact, Footer, Themes} from '.
 
 const App = () => {
   return (
-    <div className="body-color w-full dark:bg-[#131a32]">
+    <main className="w-full dark:bg-[#131a32]">
+      <div className='main'>
+        <div className='gradient' />
+      </div>
+
       <div className={`${styles.marginX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
           <Navbar />
@@ -29,7 +33,7 @@ const App = () => {
         </div>
       </div>
       
-    </div>
+    </main>
   )
 }
 

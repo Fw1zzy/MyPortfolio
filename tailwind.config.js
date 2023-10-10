@@ -20,9 +20,11 @@ module.exports = {
       ss: "620px",
       sm: "820px",
       md: "1060px",
-      lg: "1200px",
+      lg: "1320px",
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 };

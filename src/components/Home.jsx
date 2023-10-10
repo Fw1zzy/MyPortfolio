@@ -3,9 +3,9 @@ import { profile1 } from '../assets';
 
 const Home = () => {
   return (
-    <section className="w-full px-6 flex justify-between items-center max-md:flex-col" id="home">
-      <div className="flex flex-col mt-20">
-      <h1 className="font-poppins text-[3.8rem] font-bold color_blue leading-[4.5rem] dark:text-sky-400 ">Emmanuel Pascua.</h1>
+    <section className="w-full px-6 flex justify-between items-center max-lg:flex-col" id="home">
+      <div className="flex flex-col mt-20 max-w-full mx-auto">
+        <h1 className="font-poppins text-[3.8rem] font-bold color_blue leading-[4rem] dark:text-sky-400 ">Emmanuel Pascua.</h1>
         <p className="font-poppins textcolor2 dark:text-slate-100">Software Development Student | Passionate about Innovative Solutions</p>
         <br/>
         <p className="font-poppins textcolor2 text-justify dark:text-slate-100">
@@ -22,8 +22,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-ss:hidden">
-        <img src={profile1} className="w-[1600px] h-[550px] py-10 px-10 home-img max-md:px-20" />
+      <div className="max-w-full w-auto max-ss:hidden">
+        <img src={profile1} className="max-w-lg py-10 px-10 home-img" />
       </div>
     </section>
   )

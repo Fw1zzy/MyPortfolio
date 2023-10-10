@@ -23,6 +23,8 @@ import react from './react.svg';
 import sass from './sass.svg';
 import tailwind from './tailwind.svg';
 import vite from './vite.svg';
+import redux from './redux.svg';
+import nextjs from './nextjs.svg';
 
 
 export {
@@ -51,4 +53,6 @@ export {
   sass,
   tailwind,
   vite,
+  redux,
+  nextjs
 }

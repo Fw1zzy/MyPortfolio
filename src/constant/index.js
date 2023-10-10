@@ -1,4 +1,4 @@
-import { bootstrap, css, facebook, figma, git, github, html, instagram, javascript, linkedin, mongodb, nodejs, preview, react, sass, tailwind, vite } from "../assets";
+import { bootstrap, css, facebook, figma, git, github, html, instagram, javascript, linkedin, mongodb, nodejs, preview, react, sass, tailwind, vite, redux, nextjs } from "../assets";
 
 export const navLinks = [
   {
@@ -157,12 +157,20 @@ export const mySkills = [
     title: "TAILWIND",
   },
   {
+    icon: redux,
+    title: "REDUX",
+  },
+  {
     icon: nodejs,
     title: "NODEJS",
   },
   {
     icon: mongodb,
     title: "MONGODB",
+  },
+  {
+    icon: nextjs,
+    title: "NEXTJS",
   },
   {
     icon: vite,
