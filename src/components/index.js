@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
 import Footer from './Footer';
+import Loader from './Loader';
 
 export {
   Home,
@@ -16,4 +17,5 @@ export {
   Skills,
   Contact,
   Footer,
+  Loader,
 }
