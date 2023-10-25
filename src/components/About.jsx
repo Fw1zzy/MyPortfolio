@@ -1,5 +1,5 @@
 import React from 'react'
-import { profile2 } from '../assets'
+import { profile2, CV } from '../assets'
 import { aboutMe } from '../constant'
 
 const About = () => {
@@ -28,7 +28,7 @@ const About = () => {
             ))}
           </ul>
           
-          <a href="https://drive.google.com/u/0/uc?id=1Mn2kTJ_Q8c_xTdnPHXqQxGKzvyojEyyD&export=download" download="Resume of Emmanuel Pascua.pdf" target="_blank" >
+          <a href={CV} target="_blank" >
           <button className="button mb-20 mt-10 max-xs:items items-start">
             Download CV
           </button>

@@ -25,6 +25,7 @@ import tailwind from './tailwind.svg';
 import vite from './vite.svg';
 import redux from './redux.svg';
 import nextjs from './nextjs.svg';
+import CV from './CV.pdf';
 
 
 export {
@@ -54,5 +55,6 @@ export {
   tailwind,
   vite,
   redux,
-  nextjs
+  nextjs,
+  CV
 }
