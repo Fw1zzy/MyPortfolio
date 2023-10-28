@@ -118,6 +118,17 @@ export const myProjects = [
     link1: "https://github.com/Fw1zzy/Hoobank-Project",
     link2: "https://fw1zzy.github.io/Hoobank-Project/",
   },
+  {
+    title: "iSummarize",
+    context: "an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
+    language1: "RESTful API",
+    language2: "JavaScript",
+    language3: "Tailwind CSS",
+    icon1: github,
+    icon2: preview,
+    link1: "https://github.com/Fw1zzy/iSummarize",
+    link2: "https://i-summarize.vercel.app/",
+  },
 
 ];
 
