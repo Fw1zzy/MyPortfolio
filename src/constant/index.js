@@ -123,7 +123,6 @@ export const myProjects = [
     context: "an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
     language1: "RESTful API",
     language2: "JavaScript",
-    language3: "Tailwind CSS",
     icon1: github,
     icon2: preview,
     link1: "https://github.com/Fw1zzy/iSummarize",

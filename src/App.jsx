@@ -11,7 +11,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false)
-    },5000)
+    },3000)
   }, []);
   return (
     <main className="w-full dark:bg-[#131a32]">
