@@ -22,7 +22,7 @@ const About = () => {
           <ul className="list-none flex flex-row justify-center items-center gap-5 mt-10 text-center">
             {aboutMe.map(( about ) => (
               <li className={`font-poppins font-semiboldflex flex-col justify-center items-center text=[18px] textcolor1`} >
-                <h2 className="font-poppins text-[2.8rem] font-bold color_blue dark:text-sky-400">{about.title}</h2>
+                <h2 className="font-poppins text-[2.8rem] max-xs:text-[2.4rem] font-bold color_blue dark:text-sky-400">{about.title}</h2>
                 <p className='dark:text-slate-100'>{about.context}</p>
               </li>
             ))}

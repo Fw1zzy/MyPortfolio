@@ -14,12 +14,12 @@ const Skills = () => {
       </div>
 
       <div className="w-auto h-auto">
-          <ul className="grid grid-cols-4 gap-3 max-md:grid-cols-3 max-sm:grid-cols-2 text-center py-3 px-6 max-xs:p-3">
+          <ul className="grid grid-cols-4 gap-3 max-md:grid-cols-3 max-sm:grid-cols-2 text-center py-3 px-6 max-xs:p-0">
             {mySkills.map(( skill ) => (
-              <li className="flex flex-row justify-center items-center icon cursor-pointer mx-5 my-1 max-md:flex-col icon_container max-ss:w-[150px]">
+              <li className="flex flex-row justify-center items-center icon cursor-pointer mx-2 my-1 max-md:flex-col icon_container max-ss:w-[150px] max-xs:p-[1rem]">
                 <img
                   src={skill.icon}
-                  className="w-10 h-10 m-1 max-xs:w-8"
+                  className="w-10 h-10 m-1"
                 />
                 <p className="font-poppins font-semibold textcolor1 dark:text-slate-100 max-ss:text-[1rem]">{skill.title}</p>
               </li>
