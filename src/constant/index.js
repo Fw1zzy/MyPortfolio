@@ -24,18 +24,13 @@ export const navLinks = [
 export const aboutMe = [
   {
     id: "about-1",
-    title: "02+",
+    title: "03+",
     context: "Years of experience"
   },
   {
     id: "about-2",
     title: "05+",
     context: "Completed projects"
-  },
-  {
-    id: "about-3",
-    title: "02+",
-    context: "Skilled languages"
   },
 ];
 
