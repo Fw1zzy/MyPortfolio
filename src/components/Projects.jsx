@@ -19,10 +19,10 @@ const Projects = () => {
               </ul>
               <ul className="flex justify-start items-center gap-5">
               <a target="_blank " href={project.link1} aria-label="source code " className="text-[2rem] icon dark:text-sky-400">
-                    <i aria-hidden="true" class="fab fa-github"></i>
+                    <i aria-hidden="true" class={project.icon1}></i>
                 </a>
               <a target="_blank " href={project.link2} aria-label="live preview " className="text-[1.8rem] icon dark:text-sky-400">
-                    <i aria-hidden="true" class="fas fa-external-link-alt "></i>
+                    <i aria-hidden="true" class={project.icon2}></i>
                 </a>
               </ul>
             </div>
