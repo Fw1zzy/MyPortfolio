@@ -59,6 +59,15 @@ export const socialMedia = [
 
 export const myProjects = [
   {
+    title: "FPAS Website",
+    context: "a website that we build in my internship in Edufied, for the FPAS client with great satisfactory",
+    language1: "Webiny CMS",
+    language2: "JavaScript",
+    language3: "NextJS",
+    icon1: preview,
+    link1: "https://fpas.org.sg/",
+  },
+  {
     title: "GERICHT Restaurant",
     context: "a restaurant landing page that shows you the things you can order with responsive interface.",
     language1: "React",
