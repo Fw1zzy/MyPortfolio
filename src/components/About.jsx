@@ -16,7 +16,7 @@ const About = () => {
 
         <div className="flex flex-col justify-center items-center mt-10 max-w-full mx-auto">
           <p className="font-poppins textcolor2 text-justify ml-10 max-w-full m-auto max-xs:text-[14px] dark:text-slate-100 max-lg:ml-0">
-          Highly motivated 18-year-old software developer based in the Philippines. Exploring the field drives me to constantly seek new opportunities to grow and maximize my skills. I am particularly interested in building challenging web applications for businesses and entities and am committed to delivering high-quality solutions and experience to my clients.
+          Highly motivated 19-year-old Web Developer based in the Philippines. Exploring the field drives me to constantly seek new opportunities to grow and maximize my skills. I am particularly interested in building challenging web applications for businesses and entities and am committed to delivering high-quality solutions and experience to my clients.
           </p>
 
           <ul className="list-none flex flex-row justify-center items-center gap-5 mt-10 text-center">
