@@ -11,10 +11,10 @@ const Home = () => {
     className="w-full px-6 flex justify-between items-center max-lg:flex-col" id="home">
       <div className="flex flex-col mt-20 max-w-full mx-auto">
         <h1 className="font-poppins text-[3.8rem] font-bold color_blue leading-[4rem] max-xs:leading-[3rem] max-xs:text-[3rem] dark:text-sky-400 ">Emmanuel Pascua.</h1>
-        <p className="font-poppins textcolor2 dark:text-slate-100">Web Developer | Passionate about Innovative Solutions</p>
+        <p className="font-poppins textcolor2 dark:text-slate-100">Software Developer | Passionate about Innovative Solutions</p>
         <br/>
         <p className="font-poppins textcolor2 text-justify max-xs:text-[14px] dark:text-slate-100">
-            I'm a dedicated Web Developer with a passion for creating impactful solutions. I thrive in collaborative environments and excel at problem-solving. Seeking opportunities to learn, grow, and contribute to real-world projects. Let's connect and build innovative software together.
+            I'm a dedicated Software Developer with a passion for creating impactful solutions. I thrive in collaborative environments and excel at problem-solving. Seeking opportunities to learn, grow, and contribute to real-world projects. Let's connect and build innovative software together.
         </p>
         <div>
         <a href="mailto:emmanuelpascua@gmail.com" target="_blank" >
