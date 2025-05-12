@@ -75,6 +75,7 @@ export const myProjects = [
     language3: "Tailwind",
     link1: "https://pique-jet.vercel.app/",
     link2: "https://github.com/Fw1zzy/Pique",
+    icon1: "fab fa-github",
     icon2: "fas fa-external-link-alt",
   },
     {
@@ -85,6 +86,7 @@ export const myProjects = [
     language3: "Tailwind",
     link1: "https://logo-folio.vercel.app/",
     link2: "https://github.com/Fw1zzy/LogoFolio",
+    icon1: "fab fa-github",
     icon2: "fas fa-external-link-alt",
   },
   {
