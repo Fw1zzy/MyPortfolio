@@ -24,7 +24,7 @@ export const navLinks = [
 export const aboutMe = [
   {
     id: "about-1",
-    title: "02+",
+    title: "04+",
     context: "Years of experience"
   },
   {
