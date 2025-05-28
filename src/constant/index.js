@@ -29,7 +29,7 @@ export const aboutMe = [
   },
   {
     id: "about-2",
-    title: "05+",
+    title: "07+",
     context: "Completed projects"
   },
 ];
@@ -101,8 +101,8 @@ export const myProjects = [
     icon2: "fas fa-external-link-alt",
   },
   {
-    title: "Threads Clone",
-    context: "a full stack threads clone with typescript, react, tailwindcss, nextjs, mongodb and clerk",
+    title: "Twitter Clone",
+    context: "a full stack twitter clone with typescript, react, tailwindcss, nextjs, mongodb and clerk",
     language1: "NextJS",
     language2: "MongoDB",
     language3: "TypeScript",

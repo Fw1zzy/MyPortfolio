@@ -55,7 +55,6 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <About />
           <Projects />
-          <Skills />
           <Contact />
           <Footer />
         </div>
