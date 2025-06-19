@@ -71,7 +71,7 @@ export const myProjects = [
     title: "Pique",
     context: "a website that I have build in my freelancing career in which the client first give a design",
     language1: "Typescript",
-    language2: "Angular",
+    language2: "React",
     language3: "Tailwind",
     link1: "https://github.com/Fw1zzy/Pique",
     link2: "https://pique-jet.vercel.app/",
