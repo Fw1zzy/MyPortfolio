@@ -71,7 +71,7 @@ export const myProjects = [
     title: "Pique",
     context: "a website that I have build in my freelancing career in which the client first give a design",
     language1: "Typescript",
-    language2: "React",
+    language2: "Vue",
     language3: "Tailwind",
     link1: "https://github.com/Fw1zzy/Pique",
     link2: "https://pique-jet.vercel.app/",
@@ -92,7 +92,7 @@ export const myProjects = [
   {
     title: "GERICHT Restaurant",
     context: "a restaurant landing page that shows you the things you can order with responsive interface.",
-    language1: "React",
+    language1: "Vue",
     language2: "CSS3",
     language3: "JavaScript",
     link1: "https://github.com/Fw1zzy/GERICHT-Restaurant",
