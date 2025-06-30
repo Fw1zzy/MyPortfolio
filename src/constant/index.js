@@ -61,9 +61,9 @@ export const myProjects = [
   {
     title: "FPAS Website",
     context: "a website that we build in my internship in Edufied, for the FPAS client with great satisfactory",
-    language1: "Webiny CMS",
-    language2: "JavaScript",
-    language3: "NextJS",
+    language1: "WordPress",
+    language2: "PHP",
+    language3: " ",
     link2: "https://fpas.org.sg/",
     icon2: "fas fa-external-link-alt",
   },
