@@ -1,4 +1,4 @@
-import { bootstrap, css, facebook, figma, git, github, html, instagram, javascript, linkedin, mongodb, nodejs, preview, react, sass, tailwind, vite, redux, nextjs } from "../assets";
+import { bootstrap, css, facebook, figma, git, github, html, instagram, javascript, linkedin, mongodb, nodejs, preview, react, sass, tailwind, vite, redux, nextjs, fpasWebsite, piqueProject, twitterClone, logoFolio } from "../assets";
 
 export const navLinks = [
   {
@@ -60,27 +60,29 @@ export const socialMedia = [
 export const myProjects = [
   {
     title: "FPAS Website",
-    context: "a website that we build in my internship in Edufied, for the FPAS client with great satisfactory",
+    context: "A website built during my internship at Edufied for the FPAS client, delivered with great satisfaction.",
     language1: "WordPress",
     language2: "PHP",
     language3: " ",
     link2: "https://fpas.org.sg/",
     icon2: "fas fa-external-link-alt",
+    image: fpasWebsite,
   },
-    {
+  {
     title: "Pique",
-    context: "a website that I have build in my freelancing career in which the client first give a design",
-    language1: "Typescript",
+    context: "A freelance website built from a client-provided design, showcasing pixel-perfect implementation skills.",
+    language1: "TypeScript",
     language2: "Vue",
     language3: "Tailwind",
     link1: "https://github.com/Fw1zzy/Pique",
     link2: "https://pique-jet.vercel.app/",
     icon1: "fab fa-github",
     icon2: "fas fa-external-link-alt",
+    image: piqueProject,
   },
-    {
+  {
     title: "LogoFolio",
-    context: "a website that I have build for fun to further improve my css skill and responsive design",
+    context: "A fun personal project to sharpen CSS skills and responsive design techniques.",
     language1: "Angular",
     language2: "JavaScript",
     language3: "Tailwind",
@@ -88,21 +90,11 @@ export const myProjects = [
     link2: "https://logo-folio.vercel.app/",
     icon1: "fab fa-github",
     icon2: "fas fa-external-link-alt",
-  },
-  {
-    title: "GERICHT Restaurant",
-    context: "a restaurant landing page that shows you the things you can order with responsive interface.",
-    language1: "Vue",
-    language2: "CSS3",
-    language3: "JavaScript",
-    link1: "https://github.com/Fw1zzy/GERICHT-Restaurant",
-    link2: "https://fw1zzy.github.io/GERICHT-Restaurant/",
-    icon1: "fab fa-github",
-    icon2: "fas fa-external-link-alt",
+    image: logoFolio,
   },
   {
     title: "Twitter Clone",
-    context: "a full stack twitter clone with typescript, react, tailwindcss, nextjs, mongodb and clerk",
+    context: "A full-stack Twitter clone with auth, threads, and real-time data using NextJS and MongoDB.",
     language1: "NextJS",
     language2: "MongoDB",
     language3: "TypeScript",
@@ -110,51 +102,8 @@ export const myProjects = [
     link2: "https://twitter-clone-typescript.vercel.app/",
     icon1: "fab fa-github",
     icon2: "fas fa-external-link-alt",
+    image: twitterClone,
   },
-  {
-    title: "GPT-3",
-    context: "an informative landing page about GPT-3, which informs you about it's use and possibilities.",
-    language1: "HTML5",
-    language2: "CSS3",
-    language3: "JavaScript",
-    link1: "https://github.com/Fw1zzy/GPT-3",
-    link2: "https://fw1zzy.github.io/GPT-3/",
-    icon1: "fab fa-github",
-    icon2: "fas fa-external-link-alt",
-  },
-  {
-    title: "RoamHorizon",
-    context: "a responsive travel website that helps you book a place for your vacation.",
-    language1: "Vite",
-    language2: "TailwindCSS",
-    language3: "JavaScript",
-    link1: "https://github.com/Fw1zzy/Roam-horizon",
-    link2: "https://roam-horizon.vercel.app/",
-    icon1: "fab fa-github",
-    icon2: "fas fa-external-link-alt",
-  },
-  {
-    title: "HooBank",
-    context: "a straight forward landing page that helps you with your card payments and saving money.",
-    language1: "Vite",
-    language2: "TailwindCSS",
-    language3: "JavaScript",
-    link1: "https://github.com/Fw1zzy/Hoobank-Project",
-    link2: "https://fw1zzy.github.io/Hoobank-Project/",
-    icon1: "fab fa-github",
-    icon2: "fas fa-external-link-alt",
-  },
-  {
-    title: "iSummarize",
-    context: "an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
-    language1: "RESTful API",
-    language2: "JavaScript",
-    link1: "https://github.com/Fw1zzy/iSummarize",
-    link2: "https://i-summarize.vercel.app/",
-    icon1: "fab fa-github",
-    icon2: "fas fa-external-link-alt",
-  },
-
 ];
 
 export const mySkills = [

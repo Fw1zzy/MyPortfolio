@@ -27,6 +27,12 @@ import redux from './redux.svg';
 import nextjs from './nextjs.svg';
 import CV from './CV.pdf';
 
+// Project images
+import fpasWebsite from './fpas-website.webp';
+import piqueProject from './pique-project.webp';
+import twitterClone from './twitter-clone.webp';
+import logoFolio from './logo-folio.webp';
+
 
 export {
   profile1,
@@ -56,5 +62,10 @@ export {
   vite,
   redux,
   nextjs,
-  CV
+  CV,
+  // Project images
+  fpasWebsite,
+  piqueProject,
+  twitterClone,
+  logoFolio,
 }

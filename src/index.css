@@ -238,27 +238,302 @@
   scale: 1;
 }
 
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 4rem;
+/* ─── Projects Carousel ──────────────────────────────────────────── */
+
+.projects-carousel-wrapper {
+  position: relative;
   width: 100%;
   max-width: 1210px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
-  margin-top: 3rem;
+  margin: 3rem auto 6rem;
+  padding: 0 3.5rem;          /* room for arrow buttons */
 }
 
-
-.project {
-  height: 254px;
-  border: none;
+/* Embla viewport */
+.embla {
+  overflow: hidden;
   border-radius: 20px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 2rem;
-  margin: auto;
-  transition: all 0.4s;
 }
+
+/* Embla flex track */
+.embla__container {
+  display: flex;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  touch-action: pan-y pinch-zoom;
+}
+
+/* Each slide — 1 card on mobile, 2 on sm+ */
+.embla__slide {
+  flex: 0 0 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  min-width: 0;
+}
+
+@media (min-width: 820px) {
+  .embla__slide {
+    flex: 0 0 50%;
+  }
+}
+
+/* ─── Project Card ─────────────────────────────────────────────────── */
+.project-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.18) 0px 7px 29px 0px;
+  overflow: hidden;
+  transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+              box-shadow 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: rgba(41, 120, 181, 0.25) 0px 20px 50px -10px,
+              rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Dark mode card */
+.dark .project-card {
+  background: rgba(30, 41, 70, 0.85);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+}
+
+/* ─── Project Image ────────────────────────────────────────────────── */
+.project-img-wrapper {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.06);
+}
+
+.project-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(41, 120, 181, 0.15) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.project-card:hover .project-img-overlay {
+  opacity: 1;
+}
+
+/* ─── Card Body ───────────────────────────────────────────────────── */
+.project-card-body {
+  padding: 1.4rem 1.6rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.project-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+}
+
+.dark .project-card-title {
+  color: #e2e8f0;
+}
+
+.project-card-desc {
+  font-size: 0.875rem;
+  color: #555;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.dark .project-card-desc {
+  color: #94a3b8;
+}
+
+/* ─── Tech Badges ─────────────────────────────────────────────────── */
+.project-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0;
+}
+
+.project-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #2978b5;
+  background: rgba(41, 120, 181, 0.1);
+  border: 1px solid rgba(41, 120, 181, 0.25);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  letter-spacing: 0.02em;
+}
+
+.dark .project-tag {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  border-color: rgba(56, 189, 248, 0.25);
+}
+
+/* ─── Card Links ──────────────────────────────────────────────────── */
+.project-card-links {
+  display: flex;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+}
+
+.project-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2978b5;
+  text-decoration: none;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1.5px solid #2978b5;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.project-link-btn:hover {
+  background: #2978b5;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.dark .project-link-btn {
+  color: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.dark .project-link-btn:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.project-link-label {
+  font-size: 0.78rem;
+}
+
+/* ─── Arrow Buttons ───────────────────────────────────────────────── */
+.carousel-btn {
+  position: absolute;
+  top: calc(50% - 2rem);       /* centre on image */
+  transform: translateY(-50%);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 2px solid rgba(41, 120, 181, 0.35);
+  background: rgba(255, 255, 255, 0.9);
+  color: #2978b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 10;
+  backdrop-filter: blur(4px);
+}
+
+.carousel-btn svg {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.carousel-btn:hover {
+  background: #2978b5;
+  color: #fff;
+  border-color: #2978b5;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn:focus-visible {
+  outline: 3px solid #2978b5;
+  outline-offset: 3px;
+}
+
+.carousel-btn--prev { left: 0; }
+.carousel-btn--next { right: 0; }
+
+.dark .carousel-btn {
+  background: rgba(30, 41, 70, 0.9);
+  border-color: rgba(56, 189, 248, 0.35);
+  color: #38bdf8;
+}
+
+.dark .carousel-btn:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  border-color: #38bdf8;
+}
+
+/* ─── Dot Indicators ──────────────────────────────────────────────── */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.carousel-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: rgba(41, 120, 181, 0.25);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.carousel-dot:hover {
+  background: rgba(41, 120, 181, 0.5);
+  transform: scale(1.2);
+}
+
+.carousel-dot--active {
+  background: #2978b5;
+  width: 1.5rem;
+  border-radius: 999px;
+}
+
+.dark .carousel-dot {
+  background: rgba(56, 189, 248, 0.25);
+}
+
+.dark .carousel-dot--active {
+  background: #38bdf8;
+}
+
+.carousel-dot:focus-visible {
+  outline: 2px solid #2978b5;
+  outline-offset: 3px;
+}
+
+
 
 .icon:hover {
   cursor: pointer;
