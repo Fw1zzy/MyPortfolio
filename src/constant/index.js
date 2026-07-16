@@ -1,4 +1,29 @@
-import { bootstrap, css, facebook, figma, git, github, html, instagram, javascript, linkedin, mongodb, nodejs, preview, react, sass, tailwind, vite, redux, nextjs, fpasWebsite, piqueProject, twitterClone, logoFolio } from "../assets";
+import {
+  bootstrap,
+  css,
+  facebook,
+  figma,
+  git,
+  github,
+  html,
+  instagram,
+  javascript,
+  linkedin,
+  mongodb,
+  nodejs,
+  preview,
+  react,
+  sass,
+  tailwind,
+  vite,
+  redux,
+  nextjs,
+  fpasWebsite,
+  piqueProject,
+  twitterClone,
+  logoFolio,
+  pascualai,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -9,7 +34,7 @@ export const navLinks = [
     id: "#projects",
     title: "Projects",
   },
-/*
+  /*
   {
     id: "#skills",
     title: "Skills",
@@ -25,12 +50,12 @@ export const aboutMe = [
   {
     id: "about-1",
     title: "04+",
-    context: "Years of experience"
+    context: "Years of experience",
   },
   {
     id: "about-2",
     title: "07+",
-    context: "Completed projects"
+    context: "Completed projects",
   },
 ];
 
@@ -59,8 +84,20 @@ export const socialMedia = [
 
 export const myProjects = [
   {
+    title: "PascualAI",
+    context:
+      "An AI-powered image enhancement application leveraging advanced neural networks to upscale and restore low-resolution photos in real-time.",
+    language1: "React",
+    language2: "Typescript",
+    language3: "Supabase",
+    link2: "https://pascual-ai-enhance.vercel.app/",
+    icon2: "fas fa-external-link-alt",
+    image: pascualai,
+  },
+  {
     title: "FPAS Website",
-    context: "A website built during my internship at Edufied for the FPAS client, delivered with great satisfaction.",
+    context:
+      "A high-performance, fully responsive corporate website designed and built for the Financial Planning Association of Singapore (FPAS) during my Edufied internship.",
     language1: "WordPress",
     language2: "PHP",
     language3: " ",
@@ -70,7 +107,8 @@ export const myProjects = [
   },
   {
     title: "Pique",
-    context: "A freelance website built from a client-provided design, showcasing pixel-perfect implementation skills.",
+    context:
+      "A freelance project implementing a client's design mockup with pixel-perfect precision, optimized responsiveness, and smooth micro-interactions.",
     language1: "TypeScript",
     language2: "Vue",
     language3: "Tailwind",
@@ -82,7 +120,8 @@ export const myProjects = [
   },
   {
     title: "LogoFolio",
-    context: "A fun personal project to sharpen CSS skills and responsive design techniques.",
+    context:
+      "An interactive showcase designed to display original vector logos, emphasizing modern layout systems and polished CSS animations.",
     language1: "Angular",
     language2: "JavaScript",
     language3: "Tailwind",
@@ -94,7 +133,8 @@ export const myProjects = [
   },
   {
     title: "Twitter Clone",
-    context: "A full-stack Twitter clone with auth, threads, and real-time data using NextJS and MongoDB.",
+    context:
+      "A full-featured, secure microblogging platform featuring real-time threaded conversations, search, and dynamic user activity tracking.",
     language1: "NextJS",
     language2: "MongoDB",
     language3: "TypeScript",
@@ -167,4 +207,4 @@ export const mySkills = [
     icon: figma,
     title: "FIGMA",
   },
-]
+];
