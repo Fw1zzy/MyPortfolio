@@ -16,7 +16,7 @@ const Themes = () => {
     <div className='ml-5'>
       <label id="theme-toggle-button">
         <input type="checkbox" id="toggle" onChange={toggleTheme} />
-        <svg viewBox="0 0 69.667 44" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 69.667 44" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
           <g transform="translate(3.5 3.5)" data-name="Component 15 – 1" id="Component_15_1">
             
             

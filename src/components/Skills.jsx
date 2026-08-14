@@ -20,6 +20,7 @@ const Skills = () => {
               <li className="flex flex-row justify-center items-center icon cursor-pointer mx-2 my-1 max-md:flex-col icon_container max-ss:w-[150px] max-xs:p-[1rem]">
                 <img
                   src={skill.icon}
+                  alt={`${skill.title} icon`}
                   className="w-10 h-10 m-1"
                 />
                 <p className="font-poppins font-semibold textcolor1 dark:text-slate-100 max-ss:text-[1rem]">{skill.title}</p>

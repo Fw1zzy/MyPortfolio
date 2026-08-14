@@ -1,5 +1,5 @@
-import profile1 from "./profile1.png";
-import profile2 from "./profile2.jpg";
+import profile1 from "./profile1.webp";
+import profile2 from "./profile2.webp";
 import shape1 from "./shape1.svg";
 import shape2 from "./shape2.svg";
 import shape3 from "./shape3.svg";
