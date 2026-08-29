@@ -34,6 +34,10 @@ import twitterClone from "./twitter-clone.webp";
 import logoFolio from "./logo-folio.webp";
 import pascualai from "./pascual-ai-project.webp";
 
+// AI Automation project images
+import aiBlogWriter from "./ai-automation-blog-writer-and-social-media.webp";
+import aiResumeScreening from "./ai-automation-resume-screening.webp";
+
 export {
   profile1,
   profile2,
@@ -69,4 +73,7 @@ export {
   twitterClone,
   logoFolio,
   pascualai,
+  // AI Automation project images
+  aiBlogWriter,
+  aiResumeScreening,
 };

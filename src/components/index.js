@@ -3,6 +3,8 @@ import Navbar from './Navbar';
 import Themes from './Themes';
 import About from './About';
 import Projects from './Projects';
+import AIAutomation from './AIAutomation';
+import SkillsShowcase from './SkillsShowcase';
 import Skills from './Skills';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -14,6 +16,8 @@ export {
   Themes,
   About,
   Projects,
+  AIAutomation,
+  SkillsShowcase,
   Skills,
   Contact,
   Footer,

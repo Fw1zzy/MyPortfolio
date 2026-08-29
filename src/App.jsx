@@ -5,7 +5,7 @@ import { getCalApi } from "@calcom/embed-react";
 
 //hello
 
-import { Home, Navbar, About, Projects, Skills, Contact, Footer, Themes, Loader} from './components';
+import { Home, Navbar, About, Projects, AIAutomation, SkillsShowcase, Skills, Contact, Footer, Themes, Loader} from './components';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -56,6 +56,8 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <About />
           <Projects />
+          <AIAutomation />
+          <SkillsShowcase />
           <Contact />
           <Footer />
         </div>
