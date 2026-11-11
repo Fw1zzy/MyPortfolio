@@ -23,6 +23,7 @@ import {
   twitterClone,
   logoFolio,
   pascualai,
+  pahrump,
   aiBlogWriter,
   aiResumeScreening,
 } from "../assets";
@@ -93,6 +94,27 @@ export const socialMedia = [
 ];
 
 export const myProjects = [
+  {
+    title: "Marci Metzger Real Estate",
+    context:
+      "A real estate website for Marci Metzger and The Ridge Realty Group, showcasing homes, local Pahrump expertise, and ways for buyers and sellers to connect.",
+    details: {
+      role: "Web Design & Development",
+      year: "2026",
+      longDesc:
+        "A polished real estate experience rooted in Pahrump, Nevada. The site introduces Marci Metzger and The Ridge Realty Group, highlights local homes and community life, and guides buyers and sellers toward listings and personal support.",
+      highlights: [
+        "Real estate website for Marci Metzger and The Ridge Realty Group",
+        "Pahrump-focused property search and community gallery",
+        "Clear contact paths for buyers and sellers",
+      ],
+    },
+    language1: "Real Estate",
+    language2: "Web Design",
+    link2: "https://marci-metzge.vercel.app/",
+    icon2: "fas fa-external-link-alt",
+    image: pahrump,
+  },
   {
     title: "PascualAI",
     context:

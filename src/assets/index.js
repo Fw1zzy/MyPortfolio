@@ -33,6 +33,7 @@ import piqueProject from "./pique-project.webp";
 import twitterClone from "./twitter-clone.webp";
 import logoFolio from "./logo-folio.webp";
 import pascualai from "./pascual-ai-project.webp";
+import pahrump from "./pahrump.webp";
 
 // AI Automation project images
 import aiBlogWriter from "./ai-automation-blog-writer-and-social-media.webp";
@@ -73,6 +74,7 @@ export {
   twitterClone,
   logoFolio,
   pascualai,
+  pahrump,
   // AI Automation project images
   aiBlogWriter,
   aiResumeScreening,
